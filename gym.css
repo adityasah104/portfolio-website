@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url(Untitled\ design\ \(9\).png) no-repeat center;
+    
+    color: white;
+}
+
+img {
+    width: 120%;
+
+}
+
+.right {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 34px;
+    margin: 13px 5px;
+    height: 73px;
+}
+
+.mid {
+    /* border: 2px solid red; */
+    display: block;
+    background-color: transparent;
+    width: 33%;
+    margin: 13px auto;
+
+
+}
+
+.left {
+    /* border: 2px solid red; */
+    display: inline-block;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    right: 34px;
+    margin: 13px 5px;
+}
+
+.right img {
+    width: 51px;
+    margin: auto;
+    filter: invert(100%);
+    display: block;
+
+}
+
+.navbar {
+    display: inline-block;
+    font-size: 18px;
+
+}
+
+.navbar li {
+    display: inline-block;
+    list-style: none;
+    margin: -14px 10px;
+    margin-right: auto;
+    padding: 5px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Lilita One', cursive;
+}
+
+.navbar li a:hover {
+    color: grey;
+    text-decoration: underline;
+}
+
+.fit {
+    font-size: 19px;
+    font-family: 'Lilita One', cursive;
+    margin-top: 11px;
+    text-align: center;
+    line-height: 0px;
+}
+
+.btn {
+    padding: 4px 22px;
+    margin: 0px 2px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color:black;
+    color: white;
+    font-family: 'Lilita One', cursive;
+
+}
+
+.btn:hover {
+    background-color: grey;
+}
+
+.container {
+    border: 2px solid white;
+    width: 33%;
+    padding: 85px;
+    margin: 106px 85px;
+    border-radius: 60px;
+}
+
+.form input {
+    margin: 3px auto;
+    text-align: center;
+    display: block;
+    width: 355px;
+    border: 2px solid black;
+    padding: 6px;
+    border-radius: 5px;
+    font-family: 'Lilita One', cursive;
+
+}
+.container button{
+    display: block;
+    width: 28%;
+    margin: 12px auto;
+}
+.container h1{
+    text-align: center;
+}
