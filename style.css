@@ -495,3 +495,100 @@ html {
     border-radius: 25px;
     cursor: pointer;
 }
+
+/* contact */
+
+.touch h6{
+    position: relative;
+    top: 1715px;
+    left: 640px;
+    font-size: 1.9rem;
+    display: inline-block;
+}
+.touch h5{
+    position: relative;
+    top: 1715px;
+    left: 650px;
+    font-size: 2.5rem;
+    display: inline-block;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+.touch h4{
+    position: relative;
+    top: 1875px;
+    left: 5px;
+    font-size: 1.5rem;
+    display: inline-block;
+}
+.touch h3{
+    position: relative;
+    top: 1875px;
+    left: 555px;
+    font-size: 1.5rem;
+    display: inline-block;
+}
+.touch form{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 650px;
+    /* margin-top: 25px; */
+    top: 1815px;
+    left: 210px;
+    /* padding: 45px 45px; */
+    /* height: 60px; */
+}
+.touch form input{
+    padding: 15px 15px;
+    border-radius: 10px;
+    margin: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(63, 59, 59);
+    font-size: 1rem;
+    border: 2px solid transparent;
+}
+
+.touch form textarea{
+    padding: 15px 15px;
+    border-radius: 10px;
+    margin: 5px;
+    color: black;
+    border: 2px solid transparent;
+    background-color:rgb(63, 59, 59) ;
+}
+::placeholder{
+    color: white;
+    font-weight: 25px;
+    font-size: 15px;
+}
+.p1{
+    position: relative;
+    top: 1935px;
+    left: 955px;
+}
+.p2{
+    position: relative;
+    top: 1955px;
+    left: 955px;
+}
+.p3{
+    position: relative;
+    top: 2005px;
+    left: 955px;
+}
+.p4{
+    position: relative;
+    top: 2025px;
+    left: 955px;
+}
+.p5{
+    position: relative;
+    top: 2155px;
+    left: 955px;
+}
+.p6{
+    position: relative;
+    top: 2205px;
+    left: 955px;
+}
