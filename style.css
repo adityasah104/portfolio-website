@@ -427,3 +427,71 @@ html {
 .me a[target]:hover {
     background-color: rgb(87, 81, 81);
 }
+
+.service h5{
+    position: relative;
+    top: 1515px;
+    left: 640px;
+    font-size: 1.8rem;
+    display: inline-block;
+}
+.service h6{
+    position: relative;
+    top: 1520px;
+    left: 650px;
+    font-size: 2.8rem;
+    display: inline-block;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+.servi{
+    display: flex;
+    position: relative;
+    top: 1540px;
+    justify-content: center;
+}
+.ser{
+    border: 2px solid transparent;
+    text-align: center;
+    flex-direction: row;
+    padding: 25px 25px;
+    margin: 10px 10px;
+    width: 380px;
+    height: 550px;
+    background-color: rgb(63, 59, 59);
+}
+.ser img{
+    width: 100px;
+    height: 100px;
+}
+.ser h4{
+    position: relative;
+    top: 35px;
+    font-size: 1.5rem;
+    /* font-family: 'Bebas Neue', sans-serif; */
+}
+.ser p{
+    position: relative;
+    top: 60px;
+    font-size: 1rem;
+    color: rgb(175, 166, 166);
+}
+.btn{
+    position: relative;
+    top: 150px;
+    background-color: transparent;
+    padding: 10px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(116, 109, 109);
+}
+#btn{
+    position: relative;
+    top: 150px;
+    background-color: transparent;
+    padding: 10px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+}
