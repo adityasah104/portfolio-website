@@ -9,7 +9,8 @@
 
 body {
     background-color: rgb(47, 45, 45);
-    z-index: -2;
+    z-index: -1;
+    height: 5500px;
 }
 
 html {
@@ -24,6 +25,7 @@ html {
     top: 0px;
     /* align-items: center; */
     justify-content: center;
+    z-index: 2;
 }
 
 #navbar ul {
@@ -53,7 +55,9 @@ html {
     color: orange;
 }
 
+
 /* Header */
+
 
 .h-primary {
     position: absolute;
@@ -95,7 +99,10 @@ html {
     align-items: center;
 }
 
+
 /* portfolio */
+
+
 
 .portfolio {
     display: flex;
@@ -171,6 +178,7 @@ html {
     height: 330px;
     display: flex;
     overflow: hidden;
+    z-index: -1;
 }
 
 .item img {
@@ -186,8 +194,9 @@ html {
     top: 230px;
     font-size: 2.2rem;
     right: 250px;
-
 }
+
+
 
 #head1 {
     position: absolute;
@@ -366,6 +375,7 @@ html {
     position: relative;
     top: 1490px;
     left: 170px;
+    z-index: -1;
 }
 
 .me h5 {
@@ -374,6 +384,7 @@ html {
     left: 260px;
     font-size: 1.8rem;
     display: inline-block;
+    z-index: -1;
 }
 
 .me h6 {
@@ -383,6 +394,7 @@ html {
     display: inline-block;
     left: 275px;
     font-size: 2.8rem;
+    z-index: -1;
 }
 
 .me p {
@@ -405,6 +417,8 @@ html {
     text-decoration: none;
     background-color: rgb(151, 173, 83);
     font-family: 'Bebas Neue', sans-serif;
+    z-index: 1;
+    cursor: pointer;
 }
 
 .me a:hover {
@@ -422,20 +436,26 @@ html {
     /* border: 2px solid black; */
     background-color: grey;
     font-family: 'Bebas Neue', sans-serif;
+    /* z-index: -1; */
+    cursor: pointer;
 }
 
 .me a[target]:hover {
     background-color: rgb(87, 81, 81);
 }
-
-.service h5{
+/* .ser{
+    z-index: -1;
+    position: relative;
+} */
+.service h5 {
     position: relative;
     top: 1515px;
     left: 640px;
     font-size: 1.8rem;
     display: inline-block;
 }
-.service h6{
+
+.service h6 {
     position: relative;
     top: 1520px;
     left: 650px;
@@ -444,13 +464,15 @@ html {
     font-family: 'Bebas Neue', sans-serif;
 
 }
-.servi{
+
+.servi {
     display: flex;
     position: relative;
     top: 1540px;
     justify-content: center;
 }
-.ser{
+
+.ser {
     border: 2px solid transparent;
     text-align: center;
     flex-direction: row;
@@ -459,24 +481,29 @@ html {
     width: 380px;
     height: 550px;
     background-color: rgb(63, 59, 59);
+    z-index: -1;
 }
-.ser img{
+
+.ser img {
     width: 100px;
     height: 100px;
 }
-.ser h4{
+
+.ser h4 {
     position: relative;
     top: 35px;
     font-size: 1.5rem;
     /* font-family: 'Bebas Neue', sans-serif; */
 }
-.ser p{
+
+.ser p {
     position: relative;
     top: 60px;
     font-size: 1rem;
     color: rgb(175, 166, 166);
 }
-.btn{
+
+.btn {
     position: relative;
     top: 150px;
     background-color: transparent;
@@ -484,10 +511,12 @@ html {
     border-radius: 25px;
     cursor: pointer;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: rgb(116, 109, 109);
 }
-#btn{
+
+#btn {
     position: relative;
     top: 150px;
     background-color: transparent;
@@ -497,15 +526,26 @@ html {
 }
 
 /* contact */
+/* #contact{
+    
+    z-index: -1;
+   
+} */
 
-.touch h6{
+.touch {
+    width: 500px;
+    z-index: -1;
+}
+
+.touch h6 {
     position: relative;
     top: 1715px;
     left: 640px;
     font-size: 1.9rem;
     display: inline-block;
 }
-.touch h5{
+
+.touch h5 {
     position: relative;
     top: 1715px;
     left: 650px;
@@ -514,21 +554,24 @@ html {
     font-family: 'Bebas Neue', sans-serif;
 
 }
-.touch h4{
+
+.touch h4 {
     position: relative;
-    top: 1875px;
+    top: 1910px;
     left: 5px;
     font-size: 1.5rem;
     display: inline-block;
 }
-.touch h3{
+
+.touch h3 {
     position: relative;
-    top: 1875px;
-    left: 555px;
+    top: 1870px;
+    left: 955px;
     font-size: 1.5rem;
     display: inline-block;
 }
-.touch form{
+
+.touch form {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -536,10 +579,12 @@ html {
     /* margin-top: 25px; */
     top: 1815px;
     left: 210px;
+    z-index: -1;
     /* padding: 45px 45px; */
     /* height: 60px; */
 }
-.touch form input{
+
+.touch form input {
     padding: 15px 15px;
     border-radius: 10px;
     margin: 5px;
@@ -549,46 +594,74 @@ html {
     border: 2px solid transparent;
 }
 
-.touch form textarea{
+.touch form textarea {
     padding: 15px 15px;
     border-radius: 10px;
     margin: 5px;
     color: black;
     border: 2px solid transparent;
-    background-color:rgb(63, 59, 59) ;
+    background-color: rgb(63, 59, 59);
 }
-::placeholder{
+
+::placeholder {
     color: white;
     font-weight: 25px;
     font-size: 15px;
 }
-.p1{
+
+.p1 {
     position: relative;
     top: 1935px;
     left: 955px;
+
 }
-.p2{
+
+.p2 {
     position: relative;
     top: 1955px;
     left: 955px;
+    color: royalblue;
+    font-size: 1rem;
+    font-weight: bold;
 }
-.p3{
+
+.p3 {
     position: relative;
     top: 2005px;
     left: 955px;
 }
-.p4{
+
+.p4 {
     position: relative;
     top: 2025px;
     left: 955px;
+    color: royalblue;
+    font-size: 1rem;
+    font-weight: bold;
 }
-.p5{
+
+.p5 {
     position: relative;
-    top: 2155px;
+    top: 2085px;
     left: 955px;
 }
-.p6{
+
+.p6 {
     position: relative;
-    top: 2205px;
+    top: 2105px;
     left: 955px;
+    color: royalblue;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.btn2 {
+    position: relative;
+    top: 50px;
+    background-color: rgb(139, 221, 139);
+    padding: 20px 20px;
+    border-radius: 25px;
+    width: 200px;
+    font-size: 1.2rem;
+    cursor: pointer;
 }
