@@ -10,7 +10,7 @@
 body {
     background-color: rgb(47, 45, 45);
     z-index: -1;
-    height: 5500px;
+    height: 5356px;
 }
 
 html {
@@ -84,7 +84,7 @@ html {
 #header::before {
     content: "";
     position: absolute;
-    background: url(aditya.png) no-repeat center center/cover;
+    background: url(https://res.cloudinary.com/dzvm2nb2h/image/upload/v1687184463/aditya_okvg0s.png) no-repeat center center/cover;
     height: 800px;
     top: 0px;
     left: 0px;
