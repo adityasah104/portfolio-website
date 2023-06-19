@@ -170,6 +170,7 @@ html {
     border: 2px solid orange;
     /* display: block; */
     position: relative;
+    cursor: pointer;
     justify-content: center;
     border-radius: 13px;
     align-items: center;
@@ -178,13 +179,13 @@ html {
     height: 330px;
     display: flex;
     overflow: hidden;
-    z-index: -1;
+    /* z-index: -1; */
 }
 
 .item img {
     width: 385px;
     height: 325px;
-    z-index: -1;
+    /* z-index: -1; */
 }
 
 .head {
@@ -235,7 +236,8 @@ html {
 }
 
 .item:hover {
-    border-radius: 80px;
+    z-index: 30;
+    border-radius: 90px;
 }
 
 #item-5 img:hover {}
@@ -288,6 +290,7 @@ html {
     grid-row-gap: 2rem;
     /* grid-column-gap: .1rem; */
     position: relative;
+    z-index: -2;
 }
 
 .itemx7 {
