@@ -473,6 +473,7 @@ html {
     position: relative;
     top: 1540px;
     justify-content: center;
+    z-index: 1;
 }
 
 .ser {
