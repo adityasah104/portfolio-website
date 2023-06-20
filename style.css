@@ -110,25 +110,22 @@ html {
 }
 
 .h-primary2 {
+    
     display: block;
-    position: absolute;
-    top: 900px;
-    left: 615px;
+    position: relative;
+    top: 820px;
+    left: 975px;
     font-size: 1.8rem;
-    /* font-weight:1500; */
-    /* font-family: 'Bebas Neue', sans-serif; */
-    /* color: black; */
 
 }
 
 .h-primary3 {
     display: block;
-    position: absolute;
-    top: 900px;
-    left: 750px;
+    position: relative;
+    top: 820px;
+    left: 1000px;
+    width: 100px;
     font-size: 2rem;
-    /* color: black; */
-    /* font-weight: bold; */
     font-family: 'Bebas Neue', sans-serif;
 
 }
@@ -139,7 +136,7 @@ html {
     display: flex;
     list-style: none;
     top: 940px;
-    left: 690px;
+    left: 550px;
     cursor: pointer;
     width: 800px;
 
@@ -162,7 +159,7 @@ html {
     grid-column-gap: 2rem;
     position: relative;
     top: 1100px;
-    right: 390px;
+    right: 490px;
 
 }
 
