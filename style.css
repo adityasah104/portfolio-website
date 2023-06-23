@@ -38,6 +38,7 @@ html {
     text-decoration: none;
     display: block;
     padding: 30px 25px;
+    font-weight: bold;
 }
 
 #navbar::before {
