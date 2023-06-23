@@ -42,7 +42,7 @@ html {
 
 #navbar::before {
     content: "";
-    background-color: black;
+    background-color: rgb(153, 150, 150);
     position: absolute;
     top: 0px;
     left: 0px;
@@ -51,6 +51,7 @@ html {
     z-index: -1;
     opacity: 0.7;
 }
+
 
 #navbar ul li a:hover {
     color: orange;
@@ -165,7 +166,8 @@ html {
 }
 
 .item {
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
+    border: 2px solid rgb(78, 73, 73);
     /* display: block; */
     position: relative;
     cursor: pointer;
@@ -292,7 +294,9 @@ html {
 }
 
 .itemx7 {
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
+    border: 2px solid rgb(78, 73, 73);
+
     /* display: block; */
     position: relative;
     top: 1280px;
@@ -310,7 +314,8 @@ html {
 }
 
 .itemx {
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
+    border: 2px solid rgb(78, 73, 73);
     /* display: block; */
     position: relative;
     top: 1280px;
@@ -381,7 +386,7 @@ html {
 
 .me h5 {
     position: relative;
-    top: 1220px;
+    top: 1150px;
     left: 260px;
     font-size: 1.8rem;
     display: inline-block;
@@ -391,7 +396,7 @@ html {
 .me h6 {
     position: relative;
     font-family: 'Bebas Neue', sans-serif;
-    top: 1220px;
+    top: 1150px;
     display: inline-block;
     left: 275px;
     font-size: 2.8rem;
@@ -400,19 +405,22 @@ html {
 
 .me p {
     position: relative;
-    top: 1270px;
+    top: 1190px;
     left: 750px;
     text-align: center;
     justify-content: center;
     width: 750px;
-    font-size: 1.5rem;
-    color: grey;
+    font-size: 1.1rem;
+    line-height:25px;
+    /* font-weight: bold; */
+    /* color: grey; */
+    color: rgb(255, 255, 255);
 }
 
 .me a {
     position: relative;
-    top: 1310px;
-    left: 900px;
+    top: 1250px;
+    left: 870px;
     padding: 10px 25px;
     border-radius: 25px;
     text-decoration: none;
@@ -421,6 +429,20 @@ html {
     z-index: 1;
     cursor: pointer;
 }
+#para3{
+    display: none;
+}
+#me_btn{
+    position: relative;
+    top: 1190px;
+    left: 1050px;
+    background-color: transparent;
+    padding: 10px 25px;
+    border: 2px solid grey;
+    border-radius: 25px;
+    cursor: pointer;
+    /* z-index: ; */
+}
 
 .me a:hover {
     background-color: rgb(136, 155, 77);
@@ -428,8 +450,8 @@ html {
 
 .me a[target] {
     position: relative;
-    top: 1310px;
-    left: 900px;
+    top: 1250px;
+    left: 870px;
     text-decoration: none;
     color: white;
     padding: 10px 25px;
@@ -482,7 +504,9 @@ html {
     margin: 10px 10px;
     width: 380px;
     height: 550px;
-    background-color: rgb(63, 59, 59);
+    /* background-color: rgb(63, 59, 59); */
+    background-color: rgb(22, 21, 21);
+    
     z-index: -1;
 }
 
@@ -526,7 +550,17 @@ html {
     border-radius: 25px;
     cursor: pointer;
 }
+#para{
+    display: none;
+}
+#para1{
+    display: none;
 
+}
+#para2{
+    display: none;
+
+}
 /* contact */
 /* #contact{
     
@@ -579,7 +613,7 @@ html {
     position: relative;
     width: 650px;
     /* margin-top: 25px; */
-    top: 1815px;
+    top: 1715px;
     left: 210px;
     z-index: -1;
     /* padding: 45px 45px; */
@@ -656,14 +690,66 @@ html {
     font-size: 1rem;
     font-weight: bold;
 }
+.p8{
+    position: relative;
+    top: 2075px;
+    left: 935px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.p8 a{
+    text-decoration: none;
+    color: royalblue;
+}
+.p8 p{
+    color: royalblue;
+    position: relative;
+    bottom: 15px;
+    left: 55px;
+
+}
+.p8 img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 10px;
+    left: 17px;
+}
+.p7{
+    position: relative;
+    top: 2195px;
+    left: 935px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    
+}
+.p7 p{
+    color: royalblue;
+    position: relative;
+    bottom: 15px;
+    left: 55px;
+}
+.p7 a{
+    text-decoration: none;
+}
+.p7 img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 10px;
+    left: 17px;
+    
+}
 
 .btn2 {
     position: relative;
     top: 50px;
-    background-color: rgb(139, 221, 139);
+    /* background-color: rgb(139, 221, 139); */
+    background-color: rgb(233, 111, 102);
     padding: 20px 20px;
     border-radius: 25px;
     width: 200px;
     font-size: 1.2rem;
+    font-weight: bold;
     cursor: pointer;
 }

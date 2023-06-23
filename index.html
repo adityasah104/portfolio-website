@@ -37,6 +37,14 @@
       x.style.display = "none";
     }
   }
+    function hide3() {
+    var x = document.getElementById("para3");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
           </script>
 <body>
     <nav id="navbar">
@@ -124,10 +132,11 @@
             <img id="ab" src="https://res.cloudinary.com/dzvm2nb2h/image/upload/v1687184463/aditya_okvg0s.png" alt="">
             <h5>About</h5>
             <h6>Me</h6>
-            <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde magnam aliquam nisi voluptas impedit ipsam
-                corrupti? Officia libero sequi nisi perferendis ratione earum, similique beatae, reiciendis omnis est
-                ipsa asperiores odio quas mollitia culpa at dignissimos. Lorem ipsum dolor, sit amet consectetur
-                adipisicing elit.</p>
+            <p >Hey there! I'm Aditya Sah, currently a student at the prestigious National Institute of Technology Silchar. I have a deep passion for web development and programming, and I specialize in CSS, HTML, Git, GitHub, C, and C++. These tools and languages have become my creative outlets, allowing me to bring ideas to life and build functional and visually appealing websites.</p>
+               <p id="para3"> Apart from coding, I have a creative side that finds expression through photography. I am passionate about capturing fleeting moments and freezing them in time. Photography is not just a hobby for me; it's a way of seeing the world from a different perspective and expressing my creativity.
+                With my dedication, attention to detail, and thirst for knowledge, I strive to deliver exceptional results in every project I undertake. I love collaborating with individuals and organizations that share my enthusiasm for pushing boundaries and creating innovative web solutions.
+                If you're searching for a web developer who can transform your ideas into reality, or if you need a creative photographer to capture memorable moments, I'm here to help. Take a glimpse at my portfolio to see my skills in action, and let's connect to discuss how we can work together to make an impact in the digital realm.</p>
+                <button id="me_btn" onclick="hide3()">Learn More</button>
             <a  href="#con">HIRE ME</a>
             <a href="https://drive.google.com/file/d/1ZUqqAwocxaP06oosIhri4uv0uzseEnwp/view?usp=sharing"
                 target="_blank"> DOWNLOAD CV</a>
@@ -140,28 +149,23 @@
                 <div class="ser" id="ser1">
                     <img src="https://res.cloudinary.com/dzvm2nb2h/image/upload/v1687184465/camera_reyvql.png" alt="">
                     <h4>Photography</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, consectetur reprehenderit
-                        similique quaerat </p>
-                    <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita hic suscipit ratione
-                        architecto excepturi Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa fugit ad sunt, alias vero hic soluta eius? Expedita ullam deleniti quaerat blanditiis dicta. </p>
+                    <p>I am a passionate and versatile photographer, skilled in capturing captivating moments and telling stories through visuals. With a keen eye for composition and lighting, I bring a fresh and innovative approach to my photography. 
+                         </p>
+                    <p id="para"> Let's work together to create stunning visuals and make an impact through the power of photography.</p>
                         <button class="btn" onclick="hide()">Learn More</button>
                 </div>
                 <div class="ser" id="ser2">
                     <img src="https://res.cloudinary.com/dzvm2nb2h/image/upload/v1687184469/api_wdxa6e.png" alt="">
                     <h4>Web Design</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero eligendi dolorum molestias facere
-                        aspernatur est.</p>
-                        <p id="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita hic suscipit ratione
-                            architecto excepturi Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa fugit ad sunt, alias vero hic soluta eius? Expedita ullam deleniti quaerat blanditiis dicta. </p>
+                    <p>With expertise in web design, I bring a strong skill set in CSS, HTML, and user-centric design principles. I have a creative mindset and attention to detail, ensuring visually appealing and user-friendly websites. </p>
+                        <p id="para1"> If you're looking for a talented web designer who can bring your ideas to life, I am the right choice for your project. </p>
                             <button class="btn" onclick="hide1()">Learn More</button>
                 </div>
                 <div class="ser" id="ser3">
                     <img src="https://res.cloudinary.com/dzvm2nb2h/image/upload/v1687184467/clapperboard_luxd9o.png" alt="">
                     <h4>Video Editing</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis adipisci inventore suscipit
-                        voluptates doloribus quidem?</p>
-                        <p id="para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita hic suscipit ratione
-                            architecto excepturi Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa fugit ad sunt, alias vero hic soluta eius? Expedita ullam deleniti quaerat blanditiis dicta. </p>
+                    <p>With proficiency in video editing, I possess the ability to transform raw footage into compelling visual stories. I have a keen eye for pacing, transitions, and color grading, ensuring a seamless and captivating viewing experience.</p>
+                        <p id="para2">If you're seeking a skilled video editor to enhance your content, I am the perfect fit for your project. </p>
                             <button class="btn" onclick="hide2()">Learn More</button>
                 </div>
             </div>
@@ -179,6 +183,8 @@
            <p class="p4">7002983153</p>
            <p class="p5">Address</p>
            <p class="p6">Aryabhatta Hostel, NIT Silchar, NIT Road, Assam</p>
+           <div class="p7"><a target="_blank" href="https://www.linkedin.com/in/aditya-sah-574550257"><img src="https://res.cloudinary.com/dzvm2nb2h/image/upload/v1687541893/linkedin_lyvh32.png" alt=""><p>LinkdIn</p></a></div>
+           <div class="p8"><a target="_blank" href="https://github.com/adityasah104"><img src="https://res.cloudinary.com/dzvm2nb2h/image/upload/v1687542563/code_ujsjai.png" alt=""><p>Git-Hub</p></a></div>
            <form action="no.php">
             <input type="text"placeholder="Your Name">
             <input type="text"placeholder="Your Phone">
