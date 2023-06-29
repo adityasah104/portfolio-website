@@ -40,10 +40,15 @@
   }
     function hide3() {
     var x = document.getElementById("para3");
+    var y = document.getElementById("parax");
     if (x.style.display === "block") {
       x.style.display = "none";
+      x.style.fontSize="3rem";
+      y.style.fontSize="3rem";
     } else {
       x.style.display = "block";
+      x.style.fontSize="1rem";
+      y.style.fontSize="1rem";
     }
   }
           </script>
@@ -133,7 +138,7 @@
             <img id="ab" src="https://res.cloudinary.com/dzvm2nb2h/image/upload/v1687184463/aditya_okvg0s.png" alt="">
             <h5>About</h5>
             <h6>Me</h6>
-            <p >Hey there! I'm Aditya Sah, currently a student at the prestigious National Institute of Technology Silchar. I have a deep passion for web development and programming, and I specialize in CSS, HTML, Git, GitHub, C, and C++. These tools and languages have become my creative outlets, allowing me to bring ideas to life and build functional and visually appealing websites.</p>
+            <p id="parax" >Hey there! I'm Aditya Sah, currently a student at the prestigious National Institute of Technology Silchar. I have a deep passion for web development and programming, and I specialize in CSS, HTML, Git, GitHub, C, and C++. These tools and languages have become my creative outlets, allowing me to bring ideas to life and build functional and visually appealing websites.</p>
                <p id="para3"> Apart from coding, I have a creative side that finds expression through photography. I am passionate about capturing fleeting moments and freezing them in time. Photography is not just a hobby for me; it's a way of seeing the world from a different perspective and expressing my creativity.
                 With my dedication, attention to detail, and thirst for knowledge, I strive to deliver exceptional results in every project I undertake. I love collaborating with individuals and organizations that share my enthusiasm for pushing boundaries and creating innovative web solutions.
                 If you're searching for a web developer who can transform your ideas into reality, or if you need a creative photographer to capture memorable moments, I'm here to help. Take a glimpse at my portfolio to see my skills in action, and let's connect to discuss how we can work together to make an impact in the digital realm.</p>

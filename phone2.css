@@ -7,15 +7,17 @@
     font-family: 'Raleway', sans-serif;
 }
 
-html, body {
+html,
+body {
     max-width: 100%;
     overflow-x: hidden;
 }
+
 body {
     /* background-color: rgb(47, 45, 45); */
     background-color: black;
     z-index: -5;
-    height: 15900px;
+    height: 14198px;
     overflow-x: visible;
 }
 
@@ -48,9 +50,11 @@ html {
     text-decoration: none;
     display: block;
     justify-self: center;
-    padding: 80px 95px;
+    padding: 90px 66px;
     font-weight: bold;
+    position: relative;
     font-size: 2.5rem;
+    left: -182px;
 }
 
 #navbar::before {
@@ -58,8 +62,8 @@ html {
     background-color: rgb(153, 150, 150);
     position: absolute;
     top: 0px;
-    left: 0px;
     height: 35vh;
+    left: 0px;
     width: 300vh;
     z-index: -1;
     opacity: 0.7;
@@ -71,9 +75,9 @@ html {
 
 .h-primary {
     position: absolute;
-    top: 680px;
+    top: 629px;
     text-align: center;
-    left: 710px;
+    left: 497px;
     font-size: 5.8rem;
 }
 
@@ -81,7 +85,7 @@ html {
     position: absolute;
     /* text-align: center; */
     top: 870px;
-    left: 650px;
+    left: 429px;
     width: 800px;
     font-size: 8.1rem;
 }
@@ -92,8 +96,8 @@ html {
     top: 1130px;
     width: 800px;
     /* text-align: center; */
-    left: 710px;
-    font-weight:900;
+    left: 523px;
+    font-weight: 900;
     font-size: 3.2rem;
 }
 
@@ -103,8 +107,8 @@ html {
     background: url(https://res.cloudinary.com/dzvm2nb2h/image/upload/v1687184463/aditya_okvg0s.png) no-repeat center center/cover;
     height: 1500px;
     top: 0px;
-    left: 0px;
-    width: 100%;
+    left: -267px;
+    width: 300vh;
     z-index: -1;
     opacity: 0.9;
 }
@@ -121,11 +125,11 @@ html {
 }
 
 .h-primary2 {
-    
+
     display: block;
     position: relative;
     top: 1520px;
-    left: 1785px;
+    left: 2238px;
     font-size: 5.8rem;
 
 }
@@ -134,7 +138,7 @@ html {
     display: block;
     position: relative;
     top: 1550px;
-    left: 1800px;
+    left: 2276px;
     width: 100px;
     font-size: 4rem;
     font-family: 'Bebas Neue', sans-serif;
@@ -148,14 +152,14 @@ html {
     display: flex;
     list-style: none;
     top: 1800px;
-    left: 630px;
+    left: 1061px;
     cursor: pointer;
-    width: 2000px;  
+    width: 2000px;
 }
 
 #content ul li {
     color: rgb(177, 172, 172);
-    padding: 30px 95px;
+    padding: 30px 33px;
     font-size: 2.5rem;
 }
 
@@ -166,12 +170,12 @@ html {
 
 #container {
     display: grid;
-    grid-template-columns: repeat(2, 800px);
-     grid-row-gap: 8rem;
-    grid-column-gap: 8rem; 
+    grid-template-columns: repeat(2, 736px);
+    grid-row-gap: 6rem;
+    grid-column-gap: 0px;
     position: relative;
     top: 2100px;
-    left: -1285px;
+    left: -640px;
     /* width: 3500px; */
 
 }
@@ -186,15 +190,15 @@ html {
     border-radius: 13px;
     align-items: center;
     text-align: center;
-    width: 890px;
-    height: 1030px;
+    width: 680px;
+    height: 720px;
     display: flex;
     overflow: hidden;
 }
 
 .item img {
-    width: 880px;
-    height: 1020px;
+    width: 677px;
+    height: 710px;
     /* z-index: -1; */
 }
 
@@ -212,38 +216,38 @@ html {
 #head1 {
     position: absolute;
     font-size: 2.4rem;
-    top: 1035px;
-    left: 220px;
+    top: 737px;
+    left: 127px;
     /* display: none; */
 }
 
 #head2 {
     position: absolute;
     font-size: 2.4rem;
-    top: 1035px;
-    left: 1195px;
+    top: 746px;
+    left: 879px;
 }
 
 #head3 {
     position: absolute;
     font-size: 2.4rem;
-    top: 2205px;
-    left: 220px;
+    top: 1555px;
+    left: 118px;
 }
 
 #head4 {
     position: absolute;
     font-size: 2.4rem;
-    top: 2195px;
-    left: 1195px;
-    
+    top: 1556px;
+    left: 877px;
+
 }
 
 #head5 {
     position: absolute;
     font-size: 2.4rem;
-    top: 3365px;
-    left: 250px;
+    top: 2367px;
+    left: 110px;
 }
 
 .item:hover {
@@ -255,19 +259,20 @@ html {
 #head6 {
     position: absolute;
     font-size: 2.4rem;
-    top: 3355px;
-    left: 995px;
+    top: 2354px;
+    left: 831px;
     /* left: 905px; */
-    width: 1050px;
+    width: 751px;
 }
 
 #head7 {
     position: absolute;
     font-size: 2.4rem;
-    top: 4510px;
-    left:60px;
-    width: 850px;
+    top: 3186px;
+    left: 102px;
+    width: 734px;
 }
+
 
 #item-8 {
     font-size: 2.4rem;
@@ -275,7 +280,7 @@ html {
 
 #item-9 {
     font-size: 2rem;
-   display: none;
+    display: none;
 }
 
 
@@ -292,8 +297,8 @@ html {
 .h-primary5 {
     display: block;
     position: absolute;
-    top: 7195px;
-    left:995px;
+    top: 5841px;
+    left: 956px;
     font-size: 5rem;
     /* color: black; */
 }
@@ -301,7 +306,7 @@ html {
 .h-primary4 {
     display: block;
     position: absolute;
-    top: 7195px;
+    top: 5841px;
     left: 125px;
     font-size: 5rem;
     /* color: black; */
@@ -311,7 +316,7 @@ html {
     display: grid;
     grid-template-columns: repeat(2, 600px);
     grid-row-gap: 2rem;
-    grid-column-gap: 18rem;
+    grid-column-gap: 7rem;
     position: relative;
     z-index: -1;
 }
@@ -319,32 +324,49 @@ html {
 .itemx7 {
     /* border: 2px solid orange; */
     border: 2px solid rgb(78, 73, 73);
-font-size: 3rem;
+    font-size: 3rem;
     /* display: block; */
     position: relative;
     top: 1480px;
-    left: 70px;
+    left: 85px;
     justify-content: center;
     border-radius: 13px;
     align-items: center;
     text-align: center;
-    width: 850px;
+    width: 684px;
     height: 530px;
-    
+
     display: flex;
     /* overflow: hidden; */
 }
-
+#item7{
+        /* border: 2px solid orange; */
+        border: 2px solid rgb(78, 73, 73);
+        font-size: 3rem;
+        /* display: block; */
+        position: relative;
+        top: 1480px;
+        left: 27px;
+        justify-content: center;
+        border-radius: 13px;
+        align-items: center;
+        text-align: center;
+        width: 747px;
+        height: 530px;
+    
+        display: flex;
+        /* overflow: hidden; */
+}
 .itemx {
     /* border: 2px solid orange; */
     border: 2px solid rgb(78, 73, 73);
     /* display: block; */
     position: relative;
     top: 1480px;
-    left: 80px;
+    left: 23px;
     justify-content: center;
     border-radius: 13px;
-    width: 850px;
+    width: 751px;
     height: 530px;
     display: flex;
 }
@@ -352,10 +374,10 @@ font-size: 3rem;
 .time {
     padding: 15px 20px;
     position: relative;
-    top: 20px;
+    top: 13px;
     left: 10px;
     font-size: 2rem;
-    width: 1597px;
+    width: 1894px;
     font-family: 'Bebas Neue', sans-serif;
     height: 31px;
 }
@@ -364,8 +386,8 @@ font-size: 3rem;
     padding: 23px 23px;
     position: relative;
     display: flex;
-    top: 70px;
-    right: 414px;
+    top: 85px;
+    right: 392px;
     width: 1521px;
     font-family: 'Bebas Neue', sans-serif;
     height: 50px;
@@ -376,8 +398,8 @@ font-size: 3rem;
 .school {
     padding: 23px 23px;
     position: absolute;
-    top: 215px;
-    left: 5px;
+    top: 249px;
+    left: 14px;
     /* width: 1429px;
     height: 50px; */
     font-size: 3rem;
@@ -392,18 +414,18 @@ font-size: 3rem;
 
 .me img {
     /* overflow: hidden; */
-    width: 1067px;
-    height: 1129px;
+    width: 769px;
+    height: 836px;
     position: relative;
-    top: 7751px;
-    left: 102px;
+    top: 6456px;
+    left: 88px;
     z-index: -1;
 }
 
 .me h5 {
     position: relative;
-    top: 6480px;
-    left: 260px;
+    top: 5580px;
+    left: 186px;
     font-size: 6rem;
     display: inline-block;
     z-index: -1;
@@ -412,21 +434,21 @@ font-size: 3rem;
 .me h6 {
     position: relative;
     font-family: 'Bebas Neue', sans-serif;
-    top: 6480px;
+    top: 5587px;
     display: inline-block;
-    left: 285px;
+    left: 227px;
     font-size: 7rem;
     z-index: -1;
 }
 
 .me p {
     position: relative;
-    top: 6590px;
-    left: 1228px;
+    top: 5623px;
+    left: 879px;
     font-weight: bold;
     text-align: center;
     justify-content: center;
-    width: 776px;
+    width: 668px;
     font-size: 3rem;
     line-height: 57px;
     color: rgb(255, 255, 255);
@@ -434,8 +456,8 @@ font-size: 3rem;
 
 .me a {
     position: relative;
-    top: 6887px;
-    left: 900px;
+    top: 5710px;
+    left: -208px;
     padding: 50px 100px;
     border-radius: 25px;
     text-decoration: none;
@@ -445,13 +467,15 @@ font-size: 3rem;
     cursor: pointer;
     font-size: 2.5rem;
 }
-#para3{
+
+#para3 {
     display: none;
 }
-#me_btn{
+
+#me_btn {
     position: relative;
-    top: 6601px;
-    left: 1454px;
+    top: 5659px;
+    left: 1080px;
     background-color: transparent;
     padding: 31px 62px;
     border: 2px solid grey;
@@ -468,8 +492,8 @@ font-size: 3rem;
 
 .me a[target] {
     position: relative;
-    top: 6887px;
-    left: 959px;
+    top: 5714px;
+    left: -160px;
     text-decoration: none;
     color: white;
     padding: 41px 25px;
@@ -484,22 +508,23 @@ font-size: 3rem;
 .me a[target]:hover {
     background-color: rgb(87, 81, 81);
 }
+
 /* .ser{
     z-index: -1;
     position: relative;
 } */
 .service h5 {
     position: relative;
-    top: 4495px;
-    left: 640px;
+    top: 4362px;
+    left: 453px;
     font-size: 6rem;
     display: inline-block;
 }
 
 .service h6 {
     position: relative;
-    top: 4495px;
-    left: 660px;
+    top: 4248px;
+    left: 635px;
     font-size: 7rem;
     display: inline-block;
     font-family: 'Bebas Neue', sans-serif;
@@ -509,7 +534,7 @@ font-size: 3rem;
 .servi {
     display: flex;
     position: relative;
-    top: 4615px;
+    top: 4381px;
     justify-content: center;
     z-index: 1;
 }
@@ -518,16 +543,15 @@ font-size: 3rem;
     border: 2px solid transparent;
     text-align: center;
     flex-direction: row;
-    padding: 25px 25px;
-    margin: 55px 10px;
-    width: 605px;
+    padding: 25px 27px;
+    margin: 59px 14px;
+    width: 630px;
     height: 1728px;
     position: relative;
     /* background-color: rgb(63, 59, 59); */
     background-color: rgb(22, 21, 21);
-    
     z-index: -1;
-    left: -157px;
+    left: 405px;
 }
 
 .ser img {
@@ -571,14 +595,17 @@ font-size: 3rem;
     border-radius: 25px;
     cursor: pointer;
 }
-#para{
+
+#para {
     display: none;
 }
-#para1{
+
+#para1 {
     display: none;
 
 }
-#para2{
+
+#para2 {
     display: none;
 
 }
@@ -602,16 +629,16 @@ font-size: 3rem;
 
 .touch h6 {
     position: relative;
-    top: 10434px;
-    left: 606px;
+    top: 8944px;
+    left: 489px;
     font-size: 6rem;
     display: inline-block;
 }
 
 .touch h5 {
     position: relative;
-    top: 10314px;
-    left: 789px;
+    top: 8823px;
+    left: 684px;
     font-size: 7rem;
     display: inline-block;
     font-family: 'Bebas Neue', sans-serif;
@@ -620,7 +647,7 @@ font-size: 3rem;
 
 .touch h4 {
     position: relative;
-    top: 10496px;
+    top: 9073px;
     left: 166px;
     font-size: 4rem;
     display: inline-block;
@@ -628,8 +655,8 @@ font-size: 3rem;
 
 .touch h3 {
     position: relative;
-    top: 10415px;
-    left: 1215px;
+    top: 8990px;
+    left: 927px;
     width: 541px;
     font-size: 4rem;
     display: inline-block;
@@ -639,17 +666,17 @@ font-size: 3rem;
     display: flex;
     flex-direction: column;
     position: relative;
-    width: 961px;
+    width: 826px;
     /* margin-top: 25px; */
-    top: 9778px;
-    left: 103px;
+    top: 8319px;
+    left: 25px;
     z-index: -1;
     /* padding: 45px 45px; */
     /* height: 60px; */
 }
 
 .touch form input {
-    padding: 100px 77px;
+    padding: 72px 60px;
     border-radius: 40px;
     margin: 5px;
     color: rgb(255, 255, 255);
@@ -659,7 +686,7 @@ font-size: 3rem;
 }
 
 .touch form textarea {
-    padding: 100px 77px;
+    padding: 72px 60px;
     border-radius: 40px;
     margin: 5px;
     color: black;
@@ -675,15 +702,15 @@ font-size: 3rem;
 
 .p1 {
     position: relative;
-    top: 10507px;
-    left: 1220px;
+    top: 9104px;
+    left: 968px;
     font-size: 3rem;
 }
 
 .p2 {
     position: relative;
-    top: 10570px;
-    left: 1213px;
+    top: 9141px;
+    left: 954px;
     color: royalblue;
     font-size: 3rem;
     font-weight: bold;
@@ -691,15 +718,15 @@ font-size: 3rem;
 
 .p3 {
     position: relative;
-    top: 10693px;
-    left: 1212px;
+    top: 9264px;
+    left: 966px;
     font-size: 3rem;
 }
 
 .p4 {
     position: relative;
-    top: 10755px;
-    left: 1212px;
+    top: 9313px;
+    left: 969px;
     color: royalblue;
     font-size: 3rem;
     font-weight: bold;
@@ -707,70 +734,78 @@ font-size: 3rem;
 
 .p5 {
     position: relative;
-    top: 10852px;
-    left: 1209px;
+    top: 9427px;
+    left: 970px;
     font-size: 3rem;
 }
 
 .p6 {
     position: relative;
-    top: 10892px;
-    left: 1217px;
-    width: 690px;
+    top: 9464px;
+    left: 966px;
+    width: 531px;
     color: royalblue;
     font-size: 3rem;
     font-weight: bold;
 }
-.p8{
+
+.p8 {
     position: relative;
-    top: 10761px;
-    left: 1225px;
+    top: 9532px;
+    left: 990px;
     font-size: 3rem;
     font-weight: bold;
 }
-.p8 a{
+
+.p8 a {
     text-decoration: none;
     color: royalblue;
 }
-.p8 p{
+
+.p8 p {
     color: royalblue;
     position: relative;
-    bottom: 35px;
+    bottom: 25px;
     left: 85px;
 
 }
-.p8 img{
+
+.p8 img {
     width: 100px;
     height: 100px;
     position: relative;
     top: 40px;
     left: -30px;
 }
-.p7{
+
+.p7 {
     position: relative;
     position: relative;
-    top: 11106px;
-    left: 1208px;
+    top: 9507px;
+    left: 974px;
     font-size: 3rem;
     font-weight: bold;
-    
+
 }
-.p7 p{
+
+.p7 p {
     color: royalblue;
     position: relative;
     bottom: 21px;
     left: 112px;
 }
-.p7 a{
+
+.p7 a {
     text-decoration: none;
 }
-.p7 img{
+
+.p7 img {
     width: 100px;
     height: 100px;
     position: relative;
     top: 50px;
     left: -6px;
-    
+
 }
 
 .btn2 {
