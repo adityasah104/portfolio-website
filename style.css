@@ -11,7 +11,7 @@ body {
     /* background-color: rgb(47, 45, 45); */
     background-color: black;
     z-index: -1;
-    height: 5356px;
+    height: 235rem;
 }
 
 html {
@@ -603,7 +603,7 @@ html {
 .touch h3 {
     position: relative;
     top: 1870px;
-    left: 955px;
+    left: 750px;
     font-size: 1.5rem;
     display: inline-block;
 }
